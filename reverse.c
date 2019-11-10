@@ -17,10 +17,10 @@ void reverse(char *str, int size)
 
 int main()
 {
-	char str[] = "DanyILY";
+	char str[] = "Dany";
 	printf("%s", str);
 	putchar(10);
-	reverse(str, 7);
+	reverse(str, 4);
 	printf("%s", str);
 
 

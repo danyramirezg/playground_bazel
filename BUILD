@@ -10,3 +10,13 @@ cc_library(
     hdrs = ["reverse.h"],
     deps = [],
 )
+
+cc_test(
+    name = "reverse-test",
+    srcs = ["reverse-test.cc"],
+    copts = ["-Iexternal/gtest/include"],
+    deps = [
+        ":reverse",
+        "@gtest//:main",
+    ],
+)

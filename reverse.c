@@ -15,15 +15,4 @@ void reverse(char *str, int size)
 	}
 }
 
-int main()
-{
-	char str[] = "Dany";
-	printf("%s", str);
-	putchar(10);
-	reverse(str, 4);
-	printf("%s", str);
 
-
-
-	return 0;
-}
